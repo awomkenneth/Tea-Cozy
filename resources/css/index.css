@@ -1,0 +1,130 @@
+
+body{
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+nav img{
+    
+    height: 50px;
+    margin: 5px 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 99;
+    background-color:#000000;
+}
+
+.container-ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+li {
+    margin: 0 10px;
+}
+
+li a {
+    text-decoration: underline;
+    color: seashell;
+}
+
+.hero {
+    z-index: 1;
+    background-image: url(/TeaCozy/resources/images/img-mission-background.jpeg);
+    height: 700px;
+    width: 1200px;
+    text-align: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 1200px 700px;
+    margin: 0 50px;
+}
+
+.hero div {
+    position: relative;
+    top: 300px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.featured {
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    color: seashell;
+}
+
+.featured h2 {
+    margin: 50px;
+    border-bottom: 1px solid seashell;
+    border-radius: 120px;
+}
+
+.featured ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.featured ul li img {
+    width: 300px;
+    height: 200px;
+}
+
+.locations {
+    background-image: url(/TeaCozy/resources/images/img-locations-background.jpeg);
+    height: 500px;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.locations h2 {
+    padding: 50px;
+}
+
+.card-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: #000000;
+    margin: 40px;
+    width: 300px;
+}
+
+.footer p {
+    text-align: left;
+    margin-left: 20px;
+    font-size: 20px;
+}
